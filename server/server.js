@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3001;
 const userRoutes = require('./routes/user-routes');
+require('dotenv').config();
 
 // express middleware, used to be bodyparser
 app.use(express.json());

@@ -15,6 +15,7 @@
   "license": "ISC",
   "dependencies": {
     "aws-sdk": "^2.1467.0",
+    "dotenv": "^16.3.1",
     "if-env": "^1.0.4",
     "uuid": "^9.0.1"
   },
