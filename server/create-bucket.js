@@ -7,7 +7,7 @@ AWS.config.update({ region: 'us-east-2' });
 const s3 = new AWS.S3({ apiVersion: '2006-03-01' });
 // Create the parameters for calling createBucket
 var bucketParams = {
-    Bucket: 'user-images-' + uuidv4(),
+    Bucket: 'user-images-a12418fe-8c7f-4d84-a8bd-f78877abcf2b' + uuidv4(),
   };
   // call S3 to create the bucket
 s3.createBucket(bucketParams, (err, data) => {
